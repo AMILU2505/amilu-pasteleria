@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amilu Pasteleria</title>
+    <link rel="icon"
+  href="https://github.com/AMILU2505/amilu-pasteleria/blob/main/file_0000000051d0720eb0540a4fe154726f.png?raw=true" />
+  </head>
+  <body>
+    <header style="text-align:center;padding:20px;">
+      <img
+        src="https://github.com/AMILU2505/amilu-pasteleria/blob/main/file_0000000051d0720eb0540a4fe154726f.png?raw=true"
+        alt="Amilu Pasteleria"
+        style="width:200px;border-radius:112px;"/>
+      <h1 style="font-family:cursive;color:#b76e79;">Amilu Pasteleria</h1>
+      <button style=background-color:#f8d7da;border:none;padding:10px20px;border-radius:10px;font-weight:bold;cursor:pointer;">
+        ver Menu
+      </button>
+    </header>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
