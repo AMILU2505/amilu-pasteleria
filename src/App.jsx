@@ -1,4 +1,25 @@
 import React from "react";
+import "./styles.css";
+import logo from "./assets/logo_amilu.png";
+
+function App() {
+  return (
+    <div className="app">
+      <header className="header">
+        <img src={logo} alt="Amilu Pastelería logo" className="logo" />
+        <h1 className="title">Amilu Pastelería</h1>
+        <button className="menu-button">Ver Menú</button>
+      </header>
+
+      <main className="content">
+        <h2>Bienvenidos a Amilu Pastelería</h2>
+        <p>Delicias artesanales con el toque más dulce.</p>
+      </main>
+    </div>
+  );
+}
+
+export default App; import React from "react";
 
 export default function App(){
   return (
